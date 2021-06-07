@@ -4,6 +4,7 @@ namespace Core.Enums
     {
         CPU,
         RAM,
-        NETWORK
+        NETWORK,
+        TEMPERATURE
     }
 }
