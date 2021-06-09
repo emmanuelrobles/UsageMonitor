@@ -8,6 +8,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{73C37D05-7356-4C49-AEDD-E420FD521E84}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Communication", "Communication", "{CAC89F88-2DB1-4E7A-83AC-2930519083D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{F6B809B7-9447-4764-9FE8-CE0EC03C0003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EE35C7A1-6510-4FD4-AA3B-5E01029967CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWorkerService", "ClientWorkerService\ClientWorkerService.csproj", "{79474AEA-637F-43A9-B673-C07C78E7A386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +24,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{72E0FFA2-7B7E-42B1-BDB0-B0AD305C4408} = {DD3AE9AF-330F-4484-899B-35B90AD3C0E8}
 		{73C37D05-7356-4C49-AEDD-E420FD521E84} = {4CAC52BA-5B87-44A7-8581-2439F3F4902E}
+		{F6B809B7-9447-4764-9FE8-CE0EC03C0003} = {CAC89F88-2DB1-4E7A-83AC-2930519083D8}
+		{79474AEA-637F-43A9-B673-C07C78E7A386} = {EE35C7A1-6510-4FD4-AA3B-5E01029967CB}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{72E0FFA2-7B7E-42B1-BDB0-B0AD305C4408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +36,13 @@ Global
 		{73C37D05-7356-4C49-AEDD-E420FD521E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C37D05-7356-4C49-AEDD-E420FD521E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C37D05-7356-4C49-AEDD-E420FD521E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B809B7-9447-4764-9FE8-CE0EC03C0003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B809B7-9447-4764-9FE8-CE0EC03C0003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B809B7-9447-4764-9FE8-CE0EC03C0003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B809B7-9447-4764-9FE8-CE0EC03C0003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79474AEA-637F-43A9-B673-C07C78E7A386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79474AEA-637F-43A9-B673-C07C78E7A386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79474AEA-637F-43A9-B673-C07C78E7A386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79474AEA-637F-43A9-B673-C07C78E7A386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
